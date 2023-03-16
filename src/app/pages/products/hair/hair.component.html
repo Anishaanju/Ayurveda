@@ -1,0 +1,14 @@
+<div class="container text-center" >
+    <div class="row">
+      <div class="col-4" *ngFor="let data of hair">
+        <div class="card" style="width: 18rem;" >
+          <img width="200" height="200" src="{{data.image}}" class="card-img-top" alt="....">
+          <div class="card-body">
+            <h5 class="card-title">{{data.title}}</h5>
+            <p class="card-text">{{data.details}}</p>
+            <a (click)="gotohere(data.title)" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

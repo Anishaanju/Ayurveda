@@ -1,0 +1,27 @@
+.navbar-text{
+    float: right;
+}
+.navbar-brand{
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+    color: maroon;
+}
+.logo{
+    size: 50px;
+}
+
+.nav-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    font-size: 20px;
+}
+
+.navbar-nav{
+    justify-content: center;
+}
+
+.container-fluid{
+    background: lightgreen;
+}
+
